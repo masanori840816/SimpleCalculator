@@ -19,6 +19,9 @@
 		D7F94CD7185B23450071C481 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F94CBF185B23430071C481 /* UIKit.framework */; };
 		D7F94CDF185B23450071C481 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7F94CDD185B23450071C481 /* InfoPlist.strings */; };
 		D7F94CE1185B23450071C481 /* SimpleApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F94CE0185B23450071C481 /* SimpleApplicationTests.m */; };
+		D7F94CEC185B238C0071C481 /* MainViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F94CEB185B238C0071C481 /* MainViewViewController.m */; };
+		D7F94CEE185B23B30071C481 /* MainView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F94CED185B23B30071C481 /* MainView.storyboard */; };
+		D7F94CF1185D7D4A0071C481 /* CaluculateData.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F94CF0185D7D4A0071C481 /* CaluculateData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		D7F94CDC185B23450071C481 /* SimpleApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		D7F94CDE185B23450071C481 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7F94CE0185B23450071C481 /* SimpleApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleApplicationTests.m; sourceTree = "<group>"; };
+		D7F94CEA185B238C0071C481 /* MainViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewViewController.h; sourceTree = "<group>"; };
+		D7F94CEB185B238C0071C481 /* MainViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewViewController.m; sourceTree = "<group>"; };
+		D7F94CED185B23B30071C481 /* MainView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainView.storyboard; sourceTree = "<group>"; };
+		D7F94CEF185D7D4A0071C481 /* CaluculateData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaluculateData.h; path = SimpleApplication/CaluculateData.h; sourceTree = "<group>"; };
+		D7F94CF0185D7D4A0071C481 /* CaluculateData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaluculateData.m; path = SimpleApplication/CaluculateData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,8 @@
 		D7F94CAF185B23420071C481 = {
 			isa = PBXGroup;
 			children = (
+				D7F94CEF185D7D4A0071C481 /* CaluculateData.h */,
+				D7F94CF0185D7D4A0071C481 /* CaluculateData.m */,
 				D7F94CC1185B23430071C481 /* SimpleApplication */,
 				D7F94CDA185B23450071C481 /* SimpleApplicationTests */,
 				D7F94CBA185B23430071C481 /* Frameworks */,
@@ -111,6 +121,9 @@
 				D7F94CCB185B23430071C481 /* SimpleAppDelegate.m */,
 				D7F94CCD185B23430071C481 /* Images.xcassets */,
 				D7F94CC2185B23430071C481 /* Supporting Files */,
+				D7F94CEA185B238C0071C481 /* MainViewViewController.h */,
+				D7F94CEB185B238C0071C481 /* MainViewViewController.m */,
+				D7F94CED185B23B30071C481 /* MainView.storyboard */,
 			);
 			path = SimpleApplication;
 			sourceTree = "<group>";
@@ -221,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F94CC6185B23430071C481 /* InfoPlist.strings in Resources */,
+				D7F94CEE185B23B30071C481 /* MainView.storyboard in Resources */,
 				D7F94CCE185B23430071C481 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F94CF1185D7D4A0071C481 /* CaluculateData.m in Sources */,
 				D7F94CCC185B23430071C481 /* SimpleAppDelegate.m in Sources */,
 				D7F94CC8185B23430071C481 /* main.m in Sources */,
+				D7F94CEC185B238C0071C481 /* MainViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
